@@ -7,7 +7,7 @@ import xgboost as xgb
 from sklearn.pipeline import Pipeline
 
 # 加载和预处理数据
-df = pd.read_csv(r'C:\AI專案\InformationData\Boys and girls\BoyorGirl\HotDeck\data\AfterHotDeck\KNN_withBMI.csv')
+df = pd.read_csv(r'C:\AI專案\InformationData\Boys and girls\BoyorGirl\HotDeck\processed_dataset.csv')
 df['gender'] = df['gender'].apply(lambda x: 0 if x == 1 else 1)
 
 X = df.drop(columns=['gender'])

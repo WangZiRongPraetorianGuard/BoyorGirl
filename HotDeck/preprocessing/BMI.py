@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 替换成你的 CSV 文件路径
-file_path = r'C:\AI專案\InformationData\Boys and girls\BoyorGirl\HotDeck\data\AfterHotDeck\KNN_withBMI.csv'
+file_path = r'C:\AI專案\InformationData\Boys and girls\BoyorGirl\HotDeck\data\AfterHotDeck\Train\dataset_without_outlier_by_KNN.csv'
 df = pd.read_csv(file_path)
 
 # 确保 'height' 列是以米为单位，'weight' 是以千克为单位
@@ -15,4 +15,4 @@ df['bmi'] = df['weight'] / (df['height'] ** 2)
 print(df.head())
 
 # （可选）保存处理后的 DataFrame 到新的 CSV 文件
-df.to_csv('path_to_your_csv_file_with_bmi.csv', index=False)
+df.to_csv('dataset_without_outlier_by_KNNBNI.csv', index=False)

@@ -29,7 +29,7 @@ def hot_deck_imputation(df, target_column, reference_columns):
 
     return df
 
-file_path = r'C:\AI專案\InformationData\Boys and girls\BoyorGirl\HotDeck\data\encoding\encoding_train.csv'  # 你的 CSV 文件路径
+file_path = r'C:\AI專案\InformationData\Boys and girls\BoyorGirl\HotDeck\data\encoding\EncodingTest.csv'  # 你的 CSV 文件路径
 df = pd.read_csv(file_path)
 df.replace('#NUM!', np.nan, inplace=True)
 
@@ -48,4 +48,4 @@ df = hot_deck_imputation(df, 'weight', reference_columns)
 print(df['weight'].isna().sum())
 
 # 储存填充后的 DataFrame
-df.to_csv('C:\AI專案\InformationData\Boys and girls\BoyorGirl\HotDeck\data\AfterHotDeck/testhotdeck.csv', index=False)
+df.to_csv('C:\AI專案\InformationData\Boys and girls\BoyorGirl\HotDeck\data\AfterHotDeck/valhotdeck.csv', index=False)

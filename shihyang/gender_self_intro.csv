@@ -1,0 +1,424 @@
+﻿id,gender,self_intro
+1,2,Beautiful
+2,2,Enjoying being who I'm notsss
+3,1,Practice Makes perfect
+4,1,Straightforward
+5,2,Humorous
+6,2,I am cute
+7,1,Homo sapiens
+8,2,Um..Haha
+9,2,I am quite.
+10,2,Beautiful
+11,2,Beautiful and smart
+12,2,Beautiful and smart
+13,2,Brilliant
+14,1,Work hard play hard
+15,2,Q
+16,2,Beautiful
+17,2,Enjoying being who I'm not
+18,1,Practice Makes perfect
+19,1,Straightforward
+20,2,Humorous
+21,2,I am cute
+22,1,Homo sapiens
+23,2,Um..Haha
+24,2,I am quite.
+25,2,Beautiful
+26,2,Beautiful and smart
+27,2,Beautiful and smart
+28,2,Brilliant
+29,1,Work hard play hard
+30,2,Q
+31,1,I am so handsome
+32,1,I just wanna run.
+33,1,I just wanna run.
+34,1,Surprising
+35,1,Very lazy
+36,1,handsome
+37,1,Fake
+38,1,I am fine thank u
+39,2,tired
+40,2,tired
+41,1,Be happy
+42,1,Lazy
+43,1,Hi
+44,1,I am fakes' fans
+45,1,Hi
+46,1,Go big or go home
+47,1,Cool
+48,1,interesting
+49,1,Boring
+50,1,Karma
+51,1,handsome
+52,1,Good
+53,1,i‘m lazy.
+54,2,Good at listen to other
+55,1,crazy
+56,1,Shy and preserved
+57,1,不要
+58,1,I am kind
+59,2,A girl.
+60,1,despair
+61,1,Ah
+62,1,I have a pen
+63,1,Good
+64,2,Show me the money!
+65,1,handsome
+66,1,smart and handson
+67,1,lol
+68,2,Fintech
+69,1,Happy
+70,1,try everything
+71,1,"Luke, I am Your Father"
+72,2,BlingBling
+73,1,I'm boring man.
+74,1,prefect
+75,1,I love fishing.
+76,1,nice.
+77,2,Marginalized
+78,2,Open mind
+79,1,busy
+80,1,Young
+81,1,I am a happy man.
+82,1,Simple
+83,1,IMMGT
+84,1,I'm so cute
+85,1,Humorous person
+86,1,Humorous person
+87,1,hello world
+88,2,I am a nervous person.
+89,2,Old
+90,2,Happy
+91,1,I am 87
+92,1,Fuck you
+93,2,I am a good people
+94,1,帥
+95,1,Cool dude
+96,2,Human.
+97,1,一句話
+98,1,Gentle
+99,1,I am otaku
+100,1,Dank
+101,1,viewer
+102,1,Brilliant
+103,1,Incredible
+104,1,GGININDER
+105,1,Family
+106,2,Brilliant
+107,1,A man likes to dream.
+108,1,Cool
+109,1,"I'm a super cool rapper, yo."
+110,1,special
+111,1,Work hard
+112,1,I am geek.
+113,1,Show me what you got?
+114,1,Amazing
+115,1,Nihilisim
+116,1,Nihilisim
+117,1,Very handsome.
+118,2,Never say never
+119,1,?
+120,1,Curious
+121,1,I am intelligent.
+122,1,I'm so handsome.
+123,2,Kind
+124,1,You don't have a beauty without a beat.
+125,1,Clever but no perseverance.
+126,1,Intelligent
+127,1,I’m handsome
+128,1,Patient and careful
+129,1,Hellow world
+130,2,Trying to live a better life!
+131,1,"Stay hungry, stay foolish"
+132,1,.
+133,1,Six six six
+134,1,.
+135,1,God Damon looser
+136,1,123
+137,1,smart
+138,1,Hello World
+139,1,I don’t know
+140,1,Hungry
+141,1,Handsome
+142,1,Excellent
+143,2,Hello world
+144,1,Oh
+145,2,"I'm a common girl, just like others."
+146,1,Fat man
+147,2,Hi
+148,1,humorous
+149,2,I don't want to be defined.
+150,2,Hi
+151,1,Hello World
+152,1,Cool
+153,1,QAQ
+154,1,Smart
+155,2,I am who I am
+156,1,peace
+157,1,Zzzz
+158,1,123
+159,1,Less is more
+160,1,Smart
+161,2,Beautiful
+162,1,Always smile
+163,1,Hello
+164,1,GOAT
+165,2,Optimistic
+166,1,Good
+167,1,XD
+168,1,a genius of computer science
+169,1,宅
+170,1,Sleep
+171,1,OAO
+172,2,Nice
+173,1,hopeless
+174,1,Good Morning
+175,1,Good Morning
+176,1,I'm nice
+177,1,handsome
+178,2,misaka mikoto
+179,1,Cool
+180,1,Lazy
+181,2,I don't know.
+182,1,The color of Happy is orange
+183,2,I’m happy.
+184,1,Handsome
+185,2,introvert
+186,1,Happy
+187,1,Awesome
+188,1,Awesome
+189,1,I'm a positive person.
+190,1,Takami Chika <3
+191,1,God Damon looser
+192,1,123
+193,1,smart
+194,1,Hello World
+195,1,I don’t know
+196,1,Hungry
+197,1,Handsome
+198,1,Excellent
+199,2,Hello world
+200,1,Oh
+201,2,"I'm a common girl, just like others."
+202,1,Fat man
+203,2,Hi
+204,1,humorous
+205,2,I don't want to be defined.
+206,2,Hi
+207,1,Hello World
+208,1,Cool
+209,1,QAQ
+210,1,Smart
+211,2,I am who I am
+212,1,peace
+213,1,Zzzz
+214,1,123
+215,1,Less is more
+216,1,Smart
+217,2,Beautiful
+218,1,Always smile
+219,1,Hello
+220,1,GOAT
+221,2,Optimistic
+222,1,Good
+223,1,XD
+224,1,a genius of computer science
+225,1,宅
+226,1,Sleep
+227,1,OAO
+228,2,Nice
+229,1,hopeless
+230,1,Good Morning
+231,1,Good Morning
+232,1,I'm nice
+233,1,handsome
+234,2,misaka mikoto
+235,1,Cool
+236,1,Lazy
+237,2,I don't know.
+238,1,The color of Happy is orange
+239,2,I’m happy.
+240,1,Handsome
+241,2,introvert
+242,1,Happy
+243,1,Awesome
+244,1,Awesome
+245,1,I'm a positive person.
+246,1,Takami Chika <3
+247,1,Cooool
+248,1,Nerd
+249,1,happy gay
+250,1,fuck
+251,1,amazing
+252,1,who am i
+253,1,Shit
+254,2,unique and fat
+255,1,Stupid
+256,1,Amazing
+257,1,I am so beautiful
+258,1,Hi
+259,1,I am a student.
+260,1,Dope
+261,1,Good
+262,1,Tired.
+263,2,nice peng peng
+264,1,nine four eight seven
+265,1,Wise
+266,1,Re
+267,2,May God blessing you
+268,2,Lazy
+269,1,Nice!
+270,1,A man with wisdom.
+271,1,Useless
+272,1,Superior
+273,1,I am a nerd
+274,1,I love Metallica!
+275,1,I am a nerd
+276,1,Quite
+277,1,I have to leave on 7:40
+278,2,I am a fat guy
+279,2,Normal
+280,1,I’m handsome
+281,1,Creative
+282,1,Creative
+283,1,Specialist
+284,1,Jesus
+285,2,Brilliant
+286,1,QQ
+287,2,Red
+288,1,Handsome
+289,1,Googler
+290,1,I’m sorry
+291,1,Shiny guy
+292,1,哈哈哈笑你～～～
+293,1,I’m a smart person.
+294,1,I’m an honest man
+295,1,Hello world
+296,1,Sexy AF
+297,1,Not smart
+298,2,I'm outlier
+299,2,I'm not sleepy.
+300,1,gorgeous
+301,1,Supercold
+302,2,Cool
+303,2,Haha
+304,2,Haha
+305,2,I'm not eighty seven.
+306,1,Handsome
+307,1,878787
+308,2,good
+309,1,Handsome
+310,1,I don't know and I don't care.
+311,1,Stay hungry stay foolish
+312,1,I have superpower!
+313,1,Cool
+314,1,I’m a good man
+315,1,Often enjoy daily life.
+316,1,Good
+317,1,GGGGGGG
+318,1,I'm a Jedi
+319,1,I am handsome
+320,1,I’m a sexy guy.
+321,1,a normal man
+322,2,YOLO
+323,1,Good
+324,1,I am who am I
+325,1,Nice person
+326,2,Intelligence
+327,1,I am fine
+328,1,Handsome
+329,1,A handsome boy
+330,1,handsome
+331,2,Excellent
+332,1,Good
+333,1,I'm a foolish.
+334,1,Cool
+335,1,handsome zhou
+336,1,Samrt
+337,1,I'm handsome
+338,1,Handsome
+339,1,humble
+340,1,A student
+341,1,I am good boy
+342,1,smart and weird
+343,1,Genius
+344,1,Quietly brilliant
+345,1,Good
+346,1,Ordinary human.
+347,1,Intelligent
+348,1,Happy
+349,1,I’m happy.
+350,1,好
+351,2,I'm a nice person.
+352,1,One is never too old to learn
+353,1,good
+354,1,Tall
+355,2,I am happy and pretty girl.
+356,1,Intelligent!
+357,1,BigHotGG
+358,2,A commen person.
+359,1,I'm a nice people.
+360,1,Deep
+361,1,Tired
+362,1,nice
+363,2,my name is Ellen.
+364,2,I wish I could be smarter.
+365,1,I'm adaptive and hardworking.
+366,2,Finding myself.
+367,1,cute
+368,1,A little sleepy.
+369,2,nice to meet you
+370,1,Nice
+371,1,Industrious
+372,2,I am a little fat
+373,2,Happy girl
+374,2,Liberator
+375,1,Q^Q
+376,1,I'm friendly
+377,1,no girlfriend since 1993
+378,1,Programmer with coffee
+379,1,Just wake up
+380,1,I am a man with power to breath!
+381,1,Free
+382,1,Alive
+383,1,test
+384,1,Live or die is a big question
+385,1,Hi I am AI
+386,1,Human being
+387,1,I am a sunshine boy.
+388,1,God Hand
+389,1,I'm the boss.
+390,2,"Be sponge, be brave."
+391,1,I am a wise man
+392,1,simple
+393,1,a man
+394,1,Do everything hard.
+395,2,All is well!
+396,2,I am honest to my friends.
+397,2,Kindness
+398,2,Kindness
+399,1,handsome boy
+400,2,I don't know.
+401,2,Free
+402,1,I'm a nerd.
+403,1,Hmm
+404,1,Cute guy with handsome face.
+405,1,Positive
+406,1,Ggggggggg
+407,1,Hot and attractive
+408,1,I am a boy
+409,1,gorgeous
+410,2,Born with an adventurous spirit
+411,1,Incredible
+412,1,Eternal return
+413,2,foodie
+414,1,I am Mike
+415,2,Happy
+416,2,Good
+417,1,I am a infinity man
+418,2,Awesome
+419,1,I hope i am a super hero.
+420,1,God damn dope
+421,1,Sunny
+422,2,Light
+423,1,super 666666

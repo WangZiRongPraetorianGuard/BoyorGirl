@@ -1,0 +1,396 @@
+﻿id,gender,star_sign,phone_os,height,weight,sleepiness,iq,fb_friends,yt,self_intro,gender
+1,0,天蠍座,Apple,,100,1,87,87,87,GOod,1
+2,0,金牛座,Apple,175,80,3,130,2000,30,Easygoing,1
+3,0,雙子座,Apple,155,45,3,150,400,9,I LOVE INTEL,2
+4,0,處女座,Apple,173,85,4,100,2000,15,"I'm a hard-work man, just do my best to finish anything.",1
+5,0,射手座,Android,164,57,4,130,505,2,I'm smart,2
+6,0,牡羊座,Apple,178,88,4,80,700,2.87,A 20 years old Electrical Engineering student.,1
+7,0,金牛座,Android,174,55,2,120,150,0,I am hungry.,1
+8,0,牡羊座,Android,170,82,2,87,300,2,Friendly,1
+9,0,天蠍座,Apple,165,46,4,111,200,5,I am a student.,2
+10,0,獅子座,Apple,178,,4,187,287,20,nice,1
+11,0,天秤座,Android,190,89,2,120,185,0,A man with arrogance.,1
+12,0,巨蟹座,Android,175,66,3,130,600,50,Handsome,1
+13,0,牡羊座,Apple,185,60,5,180,0,60,Adorable,1
+14,0,摩羯座,Apple,173.5,71,2,130,1296,181,"I am sporty, who loves to play basketball",1
+15,0,處女座,Android,166,70,1,100,0,1.5,I'm in a group of idiots.,1
+16,0,,Android,188,20,,88,,,A young girl,2
+17,0,牡羊座,Apple,180,60,2,200,461,14.2,Handsome,1
+18,0,摩羯座,Android,159,46,2,87,823,0.02,Versatile,2
+19,0,牡羊座,Apple,174,62,4,128,626,7.1,Enterprising,1
+20,0,天蠍座,Android,171,64,4,130,360,5,Excellent,1
+21,0,金牛座,Apple,175,80,3,140,300,1,handsome boy,1
+22,0,雙魚座,Android,165,60,2,120,849,1,Love to eat,1
+23,0,巨蟹座,Apple,173,70,4,120,200,2,not bad,1
+24,0,牡羊座,Android,171,55,3,125,555,3,real,1
+25,0,巨蟹座,Apple,173,70,4,120,200,2,not bad,1
+26,0,天蠍座,Android,181,65,3,87,400,1,Hahahahaha,1
+27,0,獅子座,Apple,173,70,5,126,250,0.1,I am a good man.,1
+28,0,摩羯座,Apple,178,67,5,200,491,0.088,YOU ARE (NOT) ALONE.,1
+29,0,雙魚座,Apple,172,69,4,128,1000,13.6667,Excellent,1
+30,0,天蠍座,Android,165,60,5,120,462,2.36,I'm decent and sincere.,1
+31,0,巨蟹座,Android,170,57,4,167,437,0.008,Versatile guy,1
+32,0,雙魚座,Apple,153,52,4,180,465,7.6,Aggressive,2
+33,0,巨蟹座,Apple,180,70,5,180,600,10,I’m handsome,1
+34,0,巨蟹座,Android,,59,4,,,,I'm boring,1
+35,0,雙魚座,Android,187,66,4,150,150,0.1,Tall,1
+36,0,牡羊座,Android,150,45,4,80,200,0.5,fabulous,2
+37,0,射手座,Apple,176,90,3,120,705,11,Eating is my life for good.,1
+38,0,射手座,Android,177,64,3,125,30,10,I can not speak English,1
+39,0,射手座,Apple,171,72,5,100,80,1,Work hard,1
+40,0,獅子座,Android,165,65,3,130,649,0.8,I have perseverance!,1
+41,0,獅子座,Android,178,71,3,87,400,18,A shy boy.,1
+42,0,獅子座,Android,172,59,1,180,600,3,Very Handsome.,1
+43,0,獅子座,Apple,172,,3,199,200,0.05,I don’t know,1
+44,0,摩羯座,Apple,171,60,2,125,749,2.6,good man,1
+45,0,雙魚座,Apple,165,45,5,80,869,5,Introvert,2
+46,0,摩羯座,Apple,174,62,3,110,487,15,You can do it,1
+47,0,天秤座,Android,172,52,2,200,488,1.6,For honor,1
+48,0,摩羯座,Android,163,54,3,107,393,0,Love what I choose.,2
+49,0,天蠍座,Android,156,50,2,110,873,1,Hi,2
+50,0,雙子座,Apple,165,50,1,100,1859,10,Hello.,2
+51,0,雙子座,Apple,166,65,1,188,1022,5,Dog,1
+52,0,雙子座,Windows phone,87.87,87.87,1,87,87,87,Nothing,1
+53,0,天蠍座,Apple,169,60,4,100,300,5,student in nthu,1
+54,0,雙魚座,Android,187,87,4,87,9487,5.9487,I'm a 87.,1
+55,0,雙子座,Android,180,88,5,200,888,1,"I'm a ""Typical Lady"".",1
+56,0,,Android,,56,3,,589,0,I am so cuuuuuuute!,1
+57,0,處女座,Android,188.77,87.59487,5,50.87,9487,8.74,Let's party!,1
+58,0,,Android,176,,3,87,300,,Desperate,1
+59,0,摩羯座,Android,174,76.5,3,120,555,0,I am alive.,1
+60,0,雙子座,Apple,178,85,3,120,653,30.8,Fuck off,1
+61,0,射手座,Apple,178,45,4,200,500,1,Good,1
+62,0,天蠍座,Android,170,1,4,50,1,5000,Reallll sheet,1
+63,0,處女座,Apple,175,65,5,120,572,3,Fabulous.,1
+64,0,巨蟹座,Android,175,73,4,120,200,3,handsome,1
+65,0,處女座,Apple,166,90,1,170,20000,0,ass,1
+66,0,天蠍座,Android,162,50,5,120,115,20,I am smart,2
+67,0,處女座,Apple,175,70,4,180,1186,50,Cool and smart,1
+68,0,牡羊座,Android,160,50,4,180,100,3,Normal,2
+69,0,處女座,Apple,172,58,4,112,343,0.5,I’m good.,1
+70,0,雙子座,Android,161,46,4,100,200,3,Cute,2
+71,0,巨蟹座,Android,158,53,2,100,600,11.78,Allergic to humans.,2
+72,0,牡羊座,Apple,218,50,4,200,0,1000,Ez game Ez life,1
+73,0,摩羯座,Apple,174,73,5,120,200,30,Interesting person.,1
+74,0,處女座,Android,,60,,87,10,83.98,mumi,1
+75,0,雙子座,Apple,161,43,3,100,300,0.65,I get a cold,2
+76,0,天蠍座,Android,156,50,5,120,484,5,Amazing,2
+77,0,處女座,Android,178,74,,87,878,87,High,1
+78,0,,Apple,173,58,4,,,2,I am a girl.,1
+79,0,金牛座,,,63,4,,500,,I good,1
+80,0,雙子座,Android,174,58,4,110,264,0.4,Lazy,1
+81,0,天秤座,Android,160,54,2,130,564,3,I am lazy.,2
+82,0,天蠍座,Apple,176,76,4,128,850,20,Outgoing,1
+83,0,處女座,Android,168,75,5,160,500,50,A good man.,1
+84,0,射手座,Apple,172,57,1,51,199,200,Being smart is all I have,1
+85,0,處女座,Apple,175,63,5,180,1000,5,I’m handsome.,1
+86,0,射手座,Android,180,80,4,100,600,40,"I AM A BIG MAN, BUT ALSO SAMLL.",1
+87,0,水瓶座,Android,168,55,4,180,567,23,Very nice.,1
+88,0,金牛座,Apple,170,56,4,180,494,9.2,Awesome!,1
+89,0,天秤座,Android,200000,450000,2,180,345000000,3.34E-05,I am so cute,1
+90,0,牡羊座,Apple,173,70,5,180,85,3,I think I am handsome,1
+91,0,,Apple,,,3,111,400,,I am a positive person.,2
+92,0,牡羊座,Android,183,75,2,87,500,22.8,"I'm fine thank you,and you?",1
+93,0,巨蟹座,Apple,1.84E+21,1.84E+30,1,200,1.00E+28,8.4,Plz do not delete my data.,1
+94,0,雙魚座,Apple,172,60,3,120,550,16,I’m really hungry,1
+95,0,雙魚座,Apple,175,65,4,69,653,30,Yummy,1
+96,0,天蠍座,Android,170,56,2,90,813,17.5,Black,1
+97,0,水瓶座,Apple,170,54,5,100,666,99,wee~,1
+98,0,處女座,Android,185,65,3,180,835,1.5,I'm so handsome.,1
+99,0,天秤座,Apple,173,55,3,50,1100,1,Hello,1
+100,0,牡羊座,Apple,173,53,1,200,1000,25,im cute,1
+101,0,天蠍座,Android,170,65,4,120,709,1,Peace,1
+102,0,獅子座,Android,,82,4,160,,3,Try,1
+103,0,巨蟹座,Apple,172,90,4,120,100,0.3,認真的男人,1
+104,0,金牛座,Android,173,84,5,150,250,10,開朗樂觀,1
+105,0,水瓶座,Apple,164.5,53,3,100,283,1,Smart,2
+106,0,天蠍座,Apple,159,56,5,200,150,4,I am very smart.,2
+107,0,巨蟹座,Apple,161,49,4,90,100,2,general,2
+108,0,金牛座,Android,165,90,3,150,350,10,Smart,1
+109,0,雙魚座,Android,193,80,3,80,2300,0.8,I’m fine.,1
+110,0,天蠍座,Apple,167,59,4,130,150,2,Smart,2
+111,0,水瓶座,Android,183,72,3,180,250,2,Perfect man,1
+112,0,獅子座,Android,175,79,4,80,10,0.5,friendly,1
+113,0,雙子座,Apple,173,113,4,100,294,20,Do it Better,1
+114,0,雙魚座,Android,,66,5,80,200,100,I am a student of NCU,1
+115,0,天蠍座,Apple,175,69,5,200,366,9,Walking dead,1
+116,0,天秤座,Apple,159,50,4,120,100,64,Sexy,2
+117,0,雙魚座,Android,180,80,5,110,139,0.5,I am good people,1
+118,0,雙魚座,Apple,172,69,3,51,100,25,Easy going,1
+119,0,巨蟹座,Android,174,78,1,120,120,8,I am best.,1
+120,0,水瓶座,Android,170,65,3,130,277,6,Hello,1
+121,0,雙子座,Apple,162,59,3,115,223,0.017,I am a student.,2
+122,0,獅子座,Apple,160,50,4,180,99,10000,"My Life , My Style .",2
+123,0,獅子座,Android,163,50,4,100,150,3,Enjoying life.,2
+124,0,處女座,Android,172,60,5,112,350,3,Hi,1
+125,0,金牛座,,180,,,,30,30,boring,1
+126,0,牡羊座,Android,167,79,4,123,457,1,Done? Not enough.,1
+127,0,牡羊座,Android,52,29,1,51,4,970,TxT,1
+128,0,獅子座,Apple,174,70,4,128,539,110,Lost,1
+129,0,摩羯座,Apple,174,888,1,50,1,40,I don’t understand myself.,1
+130,0,雙子座,Apple,162,45,3,100,556,0.9,I’m beautiful.,2
+131,0,雙魚座,Apple,155,53,4,120,900,1.6,Positive,2
+132,0,金牛座,Apple,173,62,5,123,600,35.2,I Good,1
+133,0,天蠍座,Android,155,49,2,110,555,9.93,I am a girl,2
+134,0,巨蟹座,Apple,164,53,4,120,1109,18.5,Always optimistic,2
+135,0,水瓶座,Android,180,85,4,200,10,1.07,cute,1
+136,0,巨蟹座,Android,177,75,5,100,30,1,Go for your goal.,1
+137,0,巨蟹座,Apple,169,67,5,199,500,100,"So smart, so handsome, so good",1
+138,0,天秤座,,,43,,180,600,,Cute,2
+139,0,牡羊座,Apple,178,61,5,100,700,20,I am not a girl.,1
+140,0,摩羯座,Apple,170,65,4,100,892,721,Never give up,1
+141,0,金牛座,Android,166,66,5,100,,15000,Absolutely fantastic,1
+142,0,天蠍座,Android,172,58,5,130,709,184,Work Hard,1
+143,0,天秤座,Android,168,63,5,100,666,35,I'm Peter.,1
+144,0,巨蟹座,Android,173,75,3,130,402,0.09905,Hard working,1
+145,0,獅子座,Android,151,56,5,110,42,0.15,I am a methodical person.,2
+146,0,雙子座,Apple,170,64,3,120,500,16,i’m a psycho,1
+147,0,水瓶座,Apple,161,68,3,50,200,0,i'm a good person,1
+148,0,水瓶座,Android,150,48,2,120,700,0.5,Keep going until reach the goal.,2
+149,0,金牛座,Android,165,65,5,120,200,0,Be Funny,1
+150,0,獅子座,Android,166,60,4,100,0,1.02,Low-key,1
+151,0,獅子座,Apple,174,70,4,128,539,110,Lost,1
+152,0,摩羯座,Android,166,57,3,130,200,2,Ambitious,2
+153,0,處女座,Apple,166,64,5,166,700,0,free,1
+154,0,巨蟹座,Apple,152,42,1,200,500,20,Good,2
+155,0,水瓶座,Apple,165,62.5,4,100,1088,7.5,humor,1
+156,0,,Apple,175,,2,180,,,Nothing is impossible!,1
+157,0,天秤座,Apple,180,77,1,180,1,10,Good,1
+158,0,雙子座,Apple,171,66,5,199,100000,20,Live with your faith,1
+159,0,處女座,Android,160,49,3,100,500,0,XD,2
+160,0,獅子座,Apple,170,49,4,200,1000,100,A bully,1
+161,0,雙子座,Android,157,46,1,180,700,1.04,I am a student.,2
+162,0,牡羊座,Apple,172,56,2,200,99999,666,Ggininder,1
+163,0,巨蟹座,Android,158,47,2,130,200,3,A boring guy,2
+164,0,巨蟹座,Apple,170,60,5,100,600,30,No confidence,1
+165,0,獅子座,Android,150,40,1,100,1100,11,Beautiful,2
+166,0,處女座,Android,182,68,3,120,400,4,I am a slient man.,1
+167,0,巨蟹座,Apple,175,60,4,100,100,50,I don’t know,1
+168,0,,Apple,178,,,,129,140,Good!,1
+169,0,雙魚座,Apple,181,55,1,120,215,465,I’m look like tall and thin.,1
+170,0,射手座,Apple,175,63,3,140,881,97.5,Friendly&Charming,1
+171,0,雙魚座,Apple,179.5,60,2,187,693,184,Outgoing,1
+172,0,牡羊座,Apple,161.5,50,3,200,1711,4,DCC,2
+173,0,雙魚座,Android,162,50,3,90,400,5,Work hard,2
+174,0,雙子座,Android,158,44,5,120,350,0.129,Adorable,2
+175,0,雙魚座,Apple,160,48,5,100,500,20,Friendly,2
+176,0,天秤座,Apple,173,53,5,200,600,1,Not bad！,1
+177,0,雙魚座,Apple,160,45,5,94,955,256,The dream will lead the way,2
+178,0,牡羊座,Apple,169,75,2,110,200,6,Cool.,1
+179,0,射手座,Apple,170,90,2,50,100,1,Stupid,1
+180,0,金牛座,Android,158,48,4,120,750,10,handsome,1
+181,0,雙魚座,Apple,163,60,4,180,385,100,I am good.,2
+182,0,巨蟹座,Android,170,25,2,200,0,500,Smart,1
+183,0,天蠍座,Apple,178,84,2,87,0,2,Cool,1
+184,0,天蠍座,Apple,182,74,2,80,100,4,Sleepy,1
+185,0,射手座,Apple,163,64,5,100,350,5,Content,1
+186,0,獅子座,Apple,165,50,3,200,500,1,Cute,2
+187,0,水瓶座,Apple,165,58,4,180,250,6.8,Cute,2
+188,0,摩羯座,Apple,172,68,1,100,10,3,Nobody nobody,1
+189,0,水瓶座,Apple,0,0,1,50,0,0,,2
+190,0,雙魚座,Apple,159,40,5,180,2000,2,free,2
+191,0,牡羊座,Apple,182,68,1,168,1303,99.2,"Cogito, ergo sum",1
+192,0,雙子座,Android,170,70,5,180,230,39.52,very kind,1
+193,0,水瓶座,Apple,158,53,3,99,1080,32,Entusiasm,2
+194,0,處女座,Android,162,55,5,100,60,30,Funny,2
+195,0,雙子座,Apple,176,78,4,110,1300,3,Do’nt say too much ，Just do it.,1
+196,0,處女座,Android,167,52,4,120,320,5,maymay,2
+197,0,處女座,Android,175,65,2,180,1.00E+98,1.00E+22,"who am i , loser life.",1
+198,0,雙子座,Apple,172,75,2,100,200,5,have fun,1
+199,0,天蠍座,Android,180,76,3,180,180,6,Do,1
+200,0,金牛座,Apple,168,61,5,89,343,5,Honest,1
+201,0,金牛座,Apple,155,46,4,200,600,2,passion,2
+202,0,摩羯座,Android,155,40,2,110,300,1,nice,2
+203,0,雙魚座,Apple,178,90,2,120,117,0,Have Fun!,1
+204,0,水瓶座,Android,173,85,5,111,6,0,not,1
+205,0,牡羊座,Android,172,55,5,148,575,0.436,I'm tall and wise.,1
+206,0,金牛座,Android,163,55,5,150,498,1000,YA,2
+207,0,摩羯座,Apple,169,58,3,55,1,0,UUUU,1
+208,0,獅子座,Apple,165,50,3,200,500,1,Cute,2
+209,0,水瓶座,Apple,158,53,3,99,1080,32,Entusiasm,2
+210,0,牡羊座,Apple,169,75,2,110,200,6,Cool.,1
+211,0,雙魚座,Android,176,75,1,50,1,2,I am stupid.,1
+212,0,天蠍座,Apple,171,73,2,200,99999,1,Awesome,1
+213,0,雙魚座,Android,173,70,5,140,300,20,Awsome,1
+214,0,牡羊座,Apple,158,50,3,140,500,10,Pretty,2
+215,0,天蠍座,Android,177,68,2,110,600,0.6,I'm so good.,1
+216,0,摩羯座,Android,176,65,5,180,721,30,hi,1
+217,0,獅子座,Apple,170,63,2,160,500,50,The best and passionate person in the world,1
+218,0,巨蟹座,Apple,173,69,4,50,320,30,Big,1
+219,0,摩羯座,Android,183,76,2,200,262,1,so smart,1
+220,0,處女座,Apple,159,45,3,122,0,11111000000,I am fat,2
+221,0,雙魚座,Apple,183,60,1,199,300,30,HowDa U Sdd,1
+222,0,金牛座,Android,178,75,4,117,2,6,human,1
+223,0,雙魚座,Apple,380,380,5,60,0,500,random,1
+224,0,,Android,183,70,5,,,6666,Boiiiiiii,1
+225,0,天蠍座,Android,180,80,3,200,500,100,handsome guy,1
+226,0,摩羯座,Apple,166,54,5,199,878,10,Ku R,2
+227,0,雙子座,Android,183,76,4,120,350,4,Wow,1
+228,0,摩羯座,Apple,155,65,5,120,717,40.6,Sophisticated but also innocent,2
+229,0,巨蟹座,Apple,160,58,3,108,300,3.3,Sport,2
+230,0,牡羊座,Apple,169,80,5,140,1555,504,Stock god,1
+231,0,天秤座,Android,175,52,4,180,666,20,paradox,1
+232,0,天蠍座,Apple,12345,400,3,90,700,52,Person,1
+233,0,雙魚座,Apple,165,58,4,180,656,289,Nothing,2
+234,0,射手座,Apple,180,65,3,50,200,20,A normal person,1
+235,0,,Android,167,55,,,100,,Cool,2
+236,0,射手座,Apple,165,50,4,100,1000,10,hello world,2
+237,0,獅子座,Apple,190,92,4,200,837,144,"Never gonna give you up, never gonna let you down, never gonna run around and desert you.",1
+238,0,雙子座,Android,161,50,3,120,600,1,Not funny,2
+239,0,雙魚座,Apple,183,60,1,199,300,30,HowDa U Sdd,1
+240,0,獅子座,Apple,190,92,4,200,837,144,"Never gonna give you up, never gonna let you down, never gonna run around and desert you.",1
+241,0,雙魚座,Apple,183,60,1,199,300,30,HowDa U Sdd,1
+242,0,獅子座,Apple,190,92,4,200,837,144,"Never gonna give you up, never gonna let you down, never gonna run around and desert you.",1
+243,0,獅子座,Apple,190,92,4,200,837,144,"Never gonna give you up, never gonna let you down, never gonna run around and desert you.",1
+244,0,射手座,Apple,174,64,5,200,100,5,hi,1
+245,0,巨蟹座,Apple,178,73,4,145,135,200,懶,1
+246,0,天秤座,Apple,177,73,5,50,200,10,Fat,1
+247,0,水瓶座,Android,173,85,1,120,500,34,Be myself,1
+248,0,水瓶座,Android,182,100,2,180,500,32,I'm the best.,1
+249,0,,,,66,1,200,100,0,Hahaha,1
+250,0,金牛座,Apple,171,93,4,50,340,6,think,1
+251,0,摩羯座,Apple,162,43,5,60,500,20,I’m a unconfident person,2
+252,0,牡羊座,Apple,178,91,4,199,616,187,Too Salty,1
+253,0,天蠍座,Apple,163,73,3,110,1028,263,I am doing the best I can.,1
+254,0,處女座,Apple,171,73,4,110,120,2,Good person,1
+255,0,雙魚座,Apple,155,46,2,100,341,10,pessimistic,2
+256,0,獅子座,Android,165,62,3,80,80,5,I am a man.,1
+257,0,水瓶座,Apple,173,63,4,100,100,100,how are you,1
+258,0,水瓶座,Android,165,76,4,120,220,2,I always enjoy my life.,1
+259,0,雙魚座,,168,63,4,51,400,0,My name is Bill,1
+260,0,天蠍座,Apple,178,78,5,110,200,5,Easygoing,1
+261,0,處女座,Android,173,100,3,100,300,100,Love Money,1
+262,0,水瓶座,Android,165,51,3,100,30,1,living human,1
+263,0,處女座,Apple,170,75,5,87,600,2,Ncu student,1
+264,0,處女座,Apple,164,49,2,110,262,0,Nothing,2
+265,0,金牛座,Apple,158,60,2,200,300,2,easy-going,2
+266,0,天秤座,Apple,176,999,1,199,500,30,"quite handsome, quite sexy and longggg dxxk",1
+267,0,天秤座,Apple,161,61,3,200,500,0,I'm an interesting and warm person.,2
+268,0,獅子座,Android,163,53,4,111,150,10,optimism,2
+269,0,雙子座,Apple,183,94,4,120,881,12.1,A kind and optimistic person.,1
+270,0,巨蟹座,Apple,165,65,2,180,2000,0,do myself,1
+271,0,天秤座,Android,163,1,2,111,190,0,>.0啾咪,1
+272,0,巨蟹座,Apple,157,50,2,100,100,0.23,I am okay.,2
+273,0,,Apple,,,5,100,10,1,Optimistic,1
+274,0,獅子座,Android,175,70,3,60,365,6,Hi,1
+275,0,牡羊座,Apple,170,60,3,130,50,1,What can I be.,1
+276,0,水瓶座,Apple,170,88,4,135,69,10,Rational and pragmatic,1
+277,0,天蠍座,Apple,188,80,3,110,500,100,Keep breaking out of the comfort zone.,1
+278,0,天秤座,Apple,185,97,3,100,400,1,Just do it.,1
+279,0,獅子座,Apple,178,90,2,130,100,0.02,take up a notch,1
+280,0,巨蟹座,Apple,166,0,4,100,200,1,positive,2
+281,0,天秤座,Apple,172,75,5,100,331,2.3,Hard to say,1
+282,0,處女座,Apple,161,40,1,100,608,0,I thrive on challenge in my life.,2
+283,0,天蠍座,Apple,166,71,5,99,272,90,optimistic person,1
+284,0,雙魚座,Android,176,78,1,50,0,3,Hola~~,1
+285,0,巨蟹座,Apple,174,37,2,120,153,15,I'm a kind person.,1
+286,0,水瓶座,Apple,180,90,1,70,1000,100,"work hard, play hard",1
+287,0,巨蟹座,Apple,175,72,4,90,200,64.3,I’m Frank,1
+288,0,水瓶座,Apple,168,65,4,120,355,44,Just ordinary people,1
+289,0,水瓶座,Apple,165,64,4,120,724,743,"With great power, comes great responsibility.",1
+290,0,天秤座,Apple,163,50,3,200,60,1.5,Quiet,2
+291,0,天秤座,Apple,167,55,4,150,1266,78.5,I'm a positive person!,2
+292,0,巨蟹座,,163,54,2,120,699,58,"Humor, handsome and sexy.",1
+293,0,獅子座,Apple,170,55,4,106,641,236,I’m an outgoing person,1
+294,0,牡羊座,Apple,152,41,4,105,400,643,A friendly person.,2
+295,0,獅子座,Android,165,60,4,111,551,0.95,I am white,1
+296,0,獅子座,Android,174,56,4,110,78,0.2,a mortal want to study something,1
+297,0,雙魚座,Apple,154,47,4,105,1203,6.7,being worried all the time,2
+298,0,牡羊座,Android,170,64,4,124,585,7.51,I enjoy in learning,1
+299,0,天蠍座,Android,173,63,4,100,303,1.56,I am shy.,1
+300,0,雙子座,Android,161,52,5,105,665,6.5,I like gaming,2
+301,0,金牛座,Apple,160,76,5,100,0,10,entrepreneur who intent to learn again,1
+302,0,雙子座,Android,156.3,40,3,105,220,9.38,Hope in the dark,2
+303,0,處女座,Apple,157,65,5,105,2016,10,i am a student of Master degree in Graduate Institute of Hydrological and Oceani Sciences,2
+304,0,水瓶座,Apple,172,57,5,135,147,3.3,Easygoing,1
+305,0,射手座,Apple,179,60,2,85,60,1,"handsome, tall, and intelligent",1
+306,0,牡羊座,Apple,176,111,4,100,382,219,I am sexy.,1
+307,0,水瓶座,Android,174,90,4,110,289,9,I am kind of a procrastinator.,1
+308,0,雙魚座,Android,,3,1,200,,0,Go Pikachu!,1
+309,0,雙魚座,Android,150,50,2,140,1100,5,"Lovely, friendly and sometimes crazy",2
+310,0,雙魚座,Apple,184,86,5,130,500,4,"like to make friends, wish everybody have a good day everyday.",1
+311,0,水瓶座,Android,157,63,2,50,30,50,who am I,1
+312,0,摩羯座,Apple,172,70,5,130,250,4,handsome,1
+313,0,雙魚座,Apple,175,67,5,130,167,3,Andrew,1
+314,0,巨蟹座,Apple,158,53,2,130,516,66.1,"I don't know who i am,but i know who will i become.",2
+315,0,天蠍座,Apple,185,82,3,95,500,100,I will be a Good papa,1
+316,0,牡羊座,Apple,162,58,3,88,100,8,It’s an interesting question!,2
+317,0,天秤座,Apple,,,5,90,,2,clever,1
+318,0,雙子座,Apple,176,78,2,120,500,8,I’m not suitable for this course :(,1
+319,0,雙子座,Android,180,90,2,130,910,3.82,Sleepy and hungry right now,1
+320,0,巨蟹座,Android,167,68,1,200,0,0,Dead,1
+321,0,處女座,Android,154,45,3,130,800,2,introverted,2
+322,0,牡羊座,Apple,174,60,1,200,800,128,Handsome,1
+323,0,雙魚座,Apple,168,62,3,200,3000,2,very pretty girl,2
+324,0,,Android,170,,5,110,250,3.5,not really good at eng,1
+325,0,,,,52,,90,800,,good person,1
+326,0,雙魚座,Apple,167,58,4,99.9,200,151,hello world,2
+327,0,金牛座,Apple,178,68,3,120,151,3,Shy,1
+328,0,天秤座,Android,168,74,1,50,200,149,I'm stupid.,1
+329,0,射手座,Android,185,98,1,95,70,50,"Student from Germany, originally Russian",1
+330,0,處女座,Apple,173,75,1,80,130,30000,I am a happy guy,1
+331,0,巨蟹座,Apple,168,58,4,116,272,130,I always be interested in unfamiliar things,2
+332,0,射手座,Apple,157,53,4,140,500,51.4,Try to be a learned person.,2
+333,0,天蠍座,Apple,185,85,5,100,575,125,I am tall,1
+334,0,天蠍座,Android,155,50,1,50,0,0,I want to sleep.,2
+335,0,牡羊座,Apple,173,59,,108,565,29.2,very handsome,1
+336,0,摩羯座,Apple,175,78,5,130,462,763,"optimism ,friendly and love scuba diving",1
+337,0,巨蟹座,Apple,174,58,4,132,250,100,People who know me are all wanting to kill me,1
+338,0,巨蟹座,Android,160,48,3,110,293,0.58,calm,2
+339,0,金牛座,Apple,168,62,3,130,335,699,taciturn and silence,1
+340,0,天蠍座,Apple,175,64,2,120,234,11,Apple,1
+341,0,金牛座,Apple,157,50,3,120,736,1600,I am difficult to understand,2
+342,0,金牛座,Apple,170,67,1,109.999999,436,163,QQ,1
+343,0,獅子座,Android,174,60,4,114,1000,40,"I like Orange 🍊🍊, so can call me Orange!",1
+344,0,水瓶座,Android,158,48,4,150,500,7,Kind and friendly,2
+345,0,牡羊座,Apple,170,65,2,100,500,115,Gorgeous >_<,1
+346,0,雙子座,Apple,178,80,5,180,736,159,stressful right now,1
+347,0,雙子座,Android,180,90,2,180,1000,6,So far so good,1
+348,0,射手座,Apple,172,66,3,120,460,3,I’m an outgoing and active boy,1
+349,0,巨蟹座,Apple,177,70,1,90,2,10,Nice person,1
+350,0,雙魚座,Apple,165,49,3,150,100,4,Very beautiful,2
+351,0,摩羯座,Apple,163,100,3,55,3,5,Good,1
+352,0,水瓶座,Apple,178,55,5,87,20,1,undecided,1
+353,0,雙魚座,Apple,171,71,2,100,436,228,Hello world.,1
+354,0,處女座,Apple,154,51,2,180,312,794,Wonderful,2
+355,0,天蠍座,Android,155,0,2,135,350,12,adorable,2
+356,0,處女座,Apple,191,77,1,83,410,31,"I do whatever i want. I am whatever i am, only god can judge me.",1
+357,0,巨蟹座,Apple,162,55,3,110,500,457,"A beauty, yes, A BEAUTY!",2
+358,0,牡羊座,Apple,169,54,4,120,260,3,"If you know, you know.",2
+359,0,金牛座,Android,169,54,2,200,700,50,I love Frieren,1
+360,0,摩羯座,Apple,151,50,4,110,700,1,Brave,2
+361,0,射手座,Android,165,60,4,115,240,4,emtional,1
+362,0,水瓶座,Apple,162,49,3,157,533,153,⋯,2
+363,0,處女座,Apple,168,58,4,77,583,64,interesting,2
+364,0,獅子座,Apple,158,50,1,180,610,2.12,Smart,2
+365,0,摩羯座,Apple,171,70,5,50,400,0.1,I am highly organized and attentive,1
+366,0,雙魚座,Apple,184,86,4,130,666,4,Confidence,1
+367,0,牡羊座,Apple,181,80,1,200,1000,30,Smartttie,1
+368,0,巨蟹座,Apple,175,75,5,200,1000,1740,Handsome and cool,1
+369,0,天秤座,Apple,170,75,2,114,308,471,Always sleepy.,1
+370,0,摩羯座,Apple,160,50,1,110,928,10,struggle,2
+371,0,天蠍座,Apple,181,75,3,199,241,1000,"I want password card, plz",1
+372,0,射手座,Apple,158,,4,,,39.2,I’m a diligent person.,2
+373,0,牡羊座,Android,171,74,2,150,470,30,Handsome,1
+374,0,天秤座,Apple,185,80,2,100,606,1330,Wang so rong,1
+375,0,牡羊座,Apple,179,72,3,130,78,119,I am a good person.,1
+376,0,處女座,Android,170,58,,130,477,25.29,"Roses are red, violets are blue, I'm watching porn, and so do you",1
+377,0,獅子座,Apple,167,62,3,100,744,123,introversion,1
+378,0,處女座,Apple,161,52,4,100,200,1.6,"A nice person, like work balance.",2
+379,0,雙魚座,Apple,162,53,2,200,0,5,enthusiastic,2
+380,0,天蠍座,Apple,173,72,1,87,1039,361,Very shy man <3,1
+381,0,天蠍座,Apple,165,100,3,100,500,4,A kind person.,1
+382,0,天秤座,Android,178,70,3,100,1048,209,A little bit not confident,1
+383,0,處女座,Android,163,50,2,88,252,0,I'm a girl,2
+384,0,雙魚座,Android,151,65,2,125,238,1,A person who is afraid of challenges but still wants to muster up the courage to try.,2
+385,0,,Apple,165,,3,112,354,1260,Kind,2
+386,0,金牛座,Android,168,52,4,100,400,6,A beautiful girl,2
+387,0,摩羯座,Apple,153,60,2,150,700,2,可愛,2
+388,0,射手座,Apple,156,41,3,50,704,193,QQ,2
+389,0,牡羊座,Android,172,70,5,180,567,10.52,Cool,1
+390,0,雙子座,Apple,163,48,4,117,407,163,Hello world,2
+391,0,處女座,Android,160,48,3,75,98,2,Starting by Starting,2
+392,0,,Apple,170,,,105,510,,A little bit smart,1
+393,0,金牛座,Apple,160,45,4,100,600,2000,Hi,2
+394,0,巨蟹座,,180,,,199.999,,60,"I'm not beautiful, but smart 😀",1
+395,0,射手座,Apple,175,69,5,135,200,1400,Like the shadow,1

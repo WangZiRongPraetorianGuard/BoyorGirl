@@ -7,7 +7,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_selection import SelectKBest, f_classif
 
 # 加载数据
-df = pd.read_csv(r'C:\AI專案\InformationData\Boys and girls\BoyorGirl\HotDeck\data\AfterHotDeck\TrainHotDeck_withBMI.csv')
+df = pd.read_csv(r'C:\Users\Hank\BoyorGirl\BoyorGirl\HotDeck\data\AfterHotDeck\TrainHotDeck_withBMI.csv')
 
 # 分割数据集（不进行实际的数据划分，只定义特征和目标）
 X = df.drop(columns=['gender'])

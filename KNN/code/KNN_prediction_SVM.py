@@ -5,10 +5,10 @@ from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler 
 
 # 讀取訓練資料集
-train_data = pd.read_csv(r"C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\dataset\KNN_without_outlier.csv")
+train_data = pd.read_csv(r"C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\outlier_detect\dataset_without_outlier_by_KNN.csv")
 
 # 將self_intro欄位從訓練資料中移除，因為這裡不打算使用該欄位作為特徵
-train_data = train_data.drop(columns=['self_intro'])
+# train_data = train_data.drop(columns=['self_intro'])
 
 # 將性別標籤設置為0和1，其中1代表男性，2代表女性
 train_data['gender'] = train_data['gender'].apply(lambda x: 1 if x == 1 else 0)

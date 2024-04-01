@@ -1,44 +1,31 @@
 import pandas as pd
 import numpy as np
 from scipy import stats
-import matplotlib.pyplot as plt
-from sklearn.impute import KNNImputer 
 
-# 讀取CSV檔案
-data = pd.read_csv(r"C:\Users\Hank\BoyorGirl\BoyorGirl\KNN_finish_file.csv")
+# 读取CSV文件
+data = pd.read_csv(r"C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\dataset\path_to_your_file_modified.csv")
 
-# 移除id欄位
-data = data.drop('id', axis=1)
+# 储存所有含有outlier的数据的索引
+outlier_indices = []
 
-# 檢查每個欄位的數據類型
-data_types = data.dtypes
+# 对每个字段检测outlier
+for index, row in data.iterrows():
+    is_outlier = False
+    for col in data.columns:
+        if isinstance(row[col], (int, float)):
+            # 计算z-score
+            z_score = stats.zscore(data[col])
+            # 找出绝对值z-score > 3或值<0的outlier的索引
+            if np.abs(z_score[index]) > 3 or row[col] < 0:
+                is_outlier = True
+                break
+    if is_outlier:
+        outlier_indices.append(index)
 
-# # 輸出每個欄位的數據類型
-# print(data_types)
-
-# 對數值型變數檢測outlier
-numerical_cols = data.select_dtypes(include=['float64', 'int64']).columns
-for col in numerical_cols:
-    # 計算z-score
-    z_scores = stats.zscore(data[col])
-    
-    # 找出絕對值z-score > 3的outlier
-    outliers = data[col][(z_scores > 3) | (z_scores < -3) | (data[col] < 0)]
-    
-    # 繪製箱形圖檢視outlier
-    plt.figure(figsize=(10, 6))
-    plt.boxplot(data[col])
-    plt.title(f'Boxplot of {col}')
-    plt.show()
-    
-    # 顯示outlier值
-    print(f"Outliers in {col}:")
-    print(outliers)
-    
-    # 詢問是否要刪除outlier
-    remove_outliers = input(f"Do you want to remove outliers in {col}? (y/n) ")
-    if remove_outliers.lower() == 'y':
-        data = data[~(z_scores > 3) & ~(z_scores < -3) | (data[col] < 0)]
-
-data.to_csv(r"C:\Users\Hank\BoyorGirl\BoyorGirl\KNN_without_outlier.csv", index=False)
-
+# 列出所有含有outlier的数据
+if outlier_indices:
+    print("Data with outliers:")
+    outlier_data = data.loc[outlier_indices]
+    print(outlier_data)
+else:
+    print("No outliers found in the dataset.")

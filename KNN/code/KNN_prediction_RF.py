@@ -5,10 +5,10 @@ from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler 
 
 # 讀取訓練資料集
-train_data = pd.read_csv(r"C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\dataset\KNN_without_outlier.csv")
+train_data = pd.read_csv(r"C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\outlier_detect\dataset_without_outlier_by_KNN.csv")
 
 # 將self_intro欄位從訓練資料中移除，因為這裡不打算使用該欄位作為特徵
-train_data = train_data.drop(columns=['self_intro'])
+# train_data = train_data.drop(columns=['self_intro'])
 
 # 將性別標籤設置為0和1，其中1代表男性，2代表女性
 train_data['gender'] = train_data['gender'].apply(lambda x: 1 if x == 1 else 0)
@@ -54,7 +54,10 @@ print("Validation Accuracy:", accuracy)
 
 # 進行測試資料集的預測
 test_data = pd.read_csv(r"C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\dataset\test_KNN_without_outlier.csv")
-test_data = test_data.drop(columns=['self_intro', 'id', 'gender'])
+
+# 將測試資料集進行與訓練資料相同的預處理
+test_data['gender'] = test_data['gender'].apply(lambda x: 1 if x == 1 else 0)
+test_data = test_data.drop(columns=['self_intro'])
 test_data_scaled = scaler.transform(test_data)
 test_predictions = best_rf.predict(test_data_scaled)
 
@@ -62,7 +65,7 @@ test_predictions = best_rf.predict(test_data_scaled)
 result_df = pd.DataFrame({'ID': range(1, len(test_predictions) + 1), 'gender': [2 if pred == 0 else pred for pred in test_predictions]})
 
 # 將結果存入新的 CSV 檔案中
-result_df.to_csv('prediction_result_RF_rapid.csv', index=False)
+result_df.to_csv('complete_prediction_result_RF_rapid.csv', index=False)
 
 # 輸出預測結果
 print(result_df)

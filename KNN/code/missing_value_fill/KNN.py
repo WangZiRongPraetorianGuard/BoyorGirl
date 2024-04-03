@@ -7,7 +7,7 @@ from sklearn.impute import KNNImputer
 ## 把encoding完的資料用KNN值補起來 
 
 # 讀取CSV檔案
-data = pd.read_csv(r"C:\Users\Hank\BoyorGirl\BoyorGirl\test_encoding.csv")
+data = pd.read_csv(r"C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\dataset\train_encoding.csv")
 
 # 將 '#NUM!' 替換為 NaN
 # data.replace('#NUM!', np.nan, inplace=True)

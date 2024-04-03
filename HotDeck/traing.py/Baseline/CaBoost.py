@@ -6,16 +6,15 @@ from sklearn.preprocessing import StandardScaler
 from catboost import CatBoostClassifier
 
 # 加载数据
-df = pd.read_csv(r'C:\AI專案\InformationData\Boys and girls\BoyorGirl\HotDeck\data\AfterHotDeck\Train\Train_Medium_WithBMI.csv')
+df = pd.read_csv(r'C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\dataset\imputed_ExtraTreesRegressor_with_bmi.csv')
 
 # 准备特征和目标变量
-# X = df[['star_sign', 'phone_os', 'height', 'weight', 'sleepiness', 'iq', 'fb_friends', 'yt', 'bmi']]
-X = df[[ 'phone_os', 'height', 'weight', 'fb_friends','sleepiness', 'iq', 'yt', 'bmi']]
+X = df[['star_sign','height', 'weight','sleepiness', 'iq','phone_os','yt','fb_friends']]
+# X = df[[ 'phone_os', 'height', 'weight', 'fb_friends','sleepiness', 'iq', 'yt', 'bmi']]
 y = df['gender'] - 1  # 确保类别标签从0开始
 
 # 创建一个包含预处理步骤和CatBoost模型的管道
 pipeline = Pipeline([
-    ('imputer', SimpleImputer(strategy='mean')),  # 缺失值处理
     ('scaler', StandardScaler()),  # 特征缩放
     ('catboost', CatBoostClassifier(verbose=0, auto_class_weights='Balanced'))  # CatBoost模型
 ])
@@ -26,3 +25,5 @@ scores = cross_val_score(pipeline, X, y, cv=5, scoring='accuracy')  # cv参数�
 # 打印每次交叉验证的准确率以及平均准确率
 print('每次交叉验证的准确率:', scores)
 print('平均准确率:', scores.mean())
+
+

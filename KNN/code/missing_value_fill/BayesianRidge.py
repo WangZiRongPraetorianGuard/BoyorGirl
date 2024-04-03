@@ -1,11 +1,15 @@
 import pandas as pd
 import numpy as np
 from scipy.stats import zscore
-from sklearn.impute import KNNImputer
+from sklearn.experimental import enable_iterative_imputer
+from sklearn.linear_model import BayesianRidge
+from sklearn.impute import IterativeImputer
 
 # 讀取資料集
 file_path = r'C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\dataset\path_to_your_file_modified.csv'
 data = pd.read_csv(file_path)
+
+data.drop(columns=['self_intro'], inplace=True)
 
 # 将'#NUM!'替换为NaN
 data.replace('#NUM!', np.nan, inplace=True)
@@ -119,36 +123,21 @@ print("Gender為2的Outlier筆數:", outliers_gender_2)
 
 outliers_csv = pd.DataFrame(data.loc[outliers])
 
-# 移除outlier值並進行KNN補值
-def handle_outliers_and_impute(data, outliers_indices, gender):
-    # 移除outlier值
-    cleaned_data = data.drop(outliers_indices)
+# 将异常值替换为 NaN
+data.loc[outliers, columns_to_check] = np.nan
 
-    # 取得指定性別的資料索引
-    gender_indices = cleaned_data[cleaned_data['gender'] == gender].index.tolist()
+# 使用 IterativeImputer 填充缺失值
+imputer = IterativeImputer(estimator=BayesianRidge(), random_state=0)
+imputed_data = imputer.fit_transform(data)
 
-    # 移除非數值型態的欄位
-    numeric_cols = cleaned_data.select_dtypes(include=['number']).columns.tolist()
-    cleaned_data = cleaned_data[numeric_cols]
+# 转换为 DataFrame
+imputed_df = pd.DataFrame(imputed_data, columns=data.columns)
 
-    # 使用KNN補值
-    imputer = KNNImputer(n_neighbors=5)
-    imputed_data = cleaned_data.copy()
-    imputed_data.loc[gender_indices] = imputer.fit_transform(imputed_data.loc[gender_indices])
+# 将 gender 列的小数部分舍去,只保留整数部分
+imputed_df['gender'] = imputed_df['gender'].apply(lambda x: int(x) if not np.isnan(x) else x)
 
-    return imputed_data
+# 输出填充后的数据集
+# print(imputed_df)
 
-# 對gender為1的outliers進行處理
-if outliers_gender_1 > 0:
-    gender_1_outliers_indices = data[(data['gender'] == 1) & data.index.isin(outliers)].index
-    data = handle_outliers_and_impute(data, gender_1_outliers_indices, 1)
-
-# 對gender為2的outliers進行處理
-if outliers_gender_2 > 0:
-    gender_2_outliers_indices = data[(data['gender'] == 2) & data.index.isin(outliers)].index
-    data = handle_outliers_and_impute(data, gender_2_outliers_indices, 2)
-
-# 列印修正後的資料
-print(data)
-
-data.to_csv(r"C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\outlier_detect\dataset_without_outlier_by_KNN.csv", index=False)
+# 将 DataFrame 转换为 CSV 文件
+imputed_df.to_csv(r'C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\dataset\imputed_BayesianRidge_modified.csv', index=False)

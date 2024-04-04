@@ -12,9 +12,9 @@ def calculate_bmi(height, weight):
 
     return weight / ((height/100) ** 2)
 
-df = pd.read_csv(r'C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\dataset\ExtraTreesRegressor_mofified.csv')
+df = pd.read_csv(r'C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\dataset\test_ExtraTreesRegressor.csv')
 
 # 计算BMI并添加到DataFrame中
 df['bmi'] = df.apply(lambda row: calculate_bmi(row['height'], row['weight']), axis=1)
 
-df.to_csv(r'C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\dataset\ExtraTreesRegressor_modified_with_bmi.csv', index=False)
+df.to_csv(r'C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\dataset\test_ExtraTreesRegressor_with_bmi.csv', index=False)

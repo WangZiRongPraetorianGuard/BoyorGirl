@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler 
 
 # 讀取訓練資料集
-train_data = pd.read_csv(r"C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\dataset\imputed_BayesianRidge_with_bmi.csv")
+train_data = pd.read_csv(r"C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\dataset\BayesianRidge_modified_with_bmi.csv")
 
 # 讀取測試資料集
 test_data = pd.read_csv(r"C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\dataset\test_KNN_with_bmi.csv")
@@ -18,9 +18,9 @@ train_data['gender'] = train_data['gender'].apply(lambda x: 1 if x == 1 else 0)
 test_data['gender'] = test_data['gender'].apply(lambda x: 1 if x == 1 else 0)
 
 # 將資料集分為特徵（X）和標籤（y）
-X = train_data.drop(columns=['gender','yt'])
+X = train_data.drop(columns=['gender'])
 y = train_data['gender']
-X_test = test_data.drop(columns=['gender', 'yt'])
+X_test = test_data.drop(columns=['gender'])
 
 # 初始化標準化器
 scaler = StandardScaler()
@@ -54,7 +54,7 @@ test_predictions = best_rf.predict(X_test_scaled)
 result_df = pd.DataFrame({'ID': range(1, len(test_predictions) + 1), 'gender': [2 if pred == 0 else pred for pred in test_predictions]})
 
 # 將結果存入新的 CSV 檔案中
-# result_df.to_csv(r'C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\prediction_result\complete_prediction_result_RF.csv', index=False)
+result_df.to_csv(r'C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\prediction_result\RF_prediction_result_bayes_KNN.csv', index=False)
 
 # 使用交叉验证评估模型性能
 cv_scores = cross_val_score(best_rf, X_scaled, y, cv=5, scoring='accuracy')

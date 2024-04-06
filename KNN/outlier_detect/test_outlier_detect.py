@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from scipy.stats import zscore
 from sklearn.impute import KNNImputer
 
@@ -81,36 +82,41 @@ print("Gender為2的Outlier筆數:", outliers_gender_2)
 outliers_csv = pd.DataFrame(data.loc[outliers])
 
 
-# 移除outlier值並進行KNN補值
-# def handle_outliers_and_impute(data, outliers_indices, gender):
-#     # 移除outlier值
-#     cleaned_data = data.drop(outliers_indices)
+def replace_outliers_with_nan(data, index, column):
+    # 找到 outlier 值的索引
+    outlier_value = data.loc[index, column]
 
-#     # 取得指定性別的資料索引
-#     gender_indices = cleaned_data[cleaned_data['gender'] == gender].index.tolist()
+    # 將 outlier 值替換為 NaN
+    data.at[index, column] = np.nan
 
-#     # 移除非數值型態的欄位
-#     numeric_cols = cleaned_data.select_dtypes(include=['number']).columns.tolist()
-#     cleaned_data = cleaned_data[numeric_cols]
+    return data
 
-#     # 使用KNN補值
-#     imputer = KNNImputer(n_neighbors=5)
-#     imputed_data = cleaned_data.copy()
-#     imputed_data.loc[gender_indices] = imputer.fit_transform(imputed_data.loc[gender_indices])
+def handle_outliers_and_impute(data, gender):
+    # 取得指定性別的資料索引
+    gender_indices = data[data['gender'] == gender].index.tolist()
 
-#     return imputed_data
+    # 移除非數值型態的欄位
+    numeric_cols = data.select_dtypes(include=['number']).columns.tolist()
+    cleaned_data = data[numeric_cols]
 
-# # 對gender為1的outliers進行處理
-# if outliers_gender_1 > 0:
-#     gender_1_outliers_indices = data[(data['gender'] == 1) & data.index.isin(outliers)].index
-#     data = handle_outliers_and_impute(data, gender_1_outliers_indices, 1)
+    # 使用KNN補值
+    imputer = KNNImputer(n_neighbors=5)
+    imputed_data = cleaned_data.copy()
+    imputed_data.loc[gender_indices] = imputer.fit_transform(imputed_data.loc[gender_indices])
 
-# # 對gender為2的outliers進行處理
-# if outliers_gender_2 > 0:
-#     gender_2_outliers_indices = data[(data['gender'] == 2) & data.index.isin(outliers)].index
-#     data = handle_outliers_and_impute(data, gender_2_outliers_indices, 2)
+    return imputed_data
 
-# 列印修正後的資料
-# print(data)
+# 將 outlier 替換為 NaN
+data = replace_outliers_with_nan(data, index='your_index', column='your_column')
+
+# 根據性別分別處理缺失值並用 KNN 補值
+data_gender_1 = handle_outliers_and_impute(data[data['gender'] == 1], 1)
+data_gender_2 = handle_outliers_and_impute(data[data['gender'] == 2], 2)
+
+# 將處理後的資料合併回原始資料集
+data_imputed = pd.concat([data_gender_1, data_gender_2])
+
+# 顯示處理後的資料
+print(data_imputed)
 
 # data.to_csv(r"C:\Users\Hank\BoyorGirl\BoyorGirl\KNN\outlier_detect\dataset_without_outlier_by_KNN.csv", index=False)
